@@ -2,18 +2,18 @@
 import subprocess; 
 
 
-class Capturing_audio(): 
+class Capturing_audio():
 
 
     def __init__(self):
         """Get information `pactl list short sources`"""
-        pass 
+
 
     def getinput_devices(self): 
 
         try:
          p  = subprocess.run(['pactl', 'list' ,'short' ,'sources'] , capture_output=True ); 
-         return p ; 
+         return self.encodeutf(p.stdout).split('\t')[1]; 
 
         except: 
             pass 
@@ -24,6 +24,7 @@ class Capturing_audio():
        string = str(bytess , encoding); 
        return string ; 
 
+DEVICEPULSARAUDIO = Capturing_audio().getinput_devices(); 
 
   
 

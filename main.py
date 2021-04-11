@@ -4,11 +4,10 @@ import os ;
 import sys ; 
 import io ; 
 
-from src.Proxy.proxy import *;  
+from src.Capturing.recording import *;  
 
-Capturing =  Capturing_audio();
+Capturing =  Capturing_audio(); 
 
-targetout  = Capturing_audio().getinput_devices().stdout
+print(Capturing_audio().getinput_devices()) ; 
 
-
-print(Capturing.encodeutf(targetout).split('\t')) 
+print(DEVICEPULSARAUDIO) 
