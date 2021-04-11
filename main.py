@@ -1,11 +1,16 @@
+#!/usr/bin/python3
+
+import os ; 
+
+from src.Proxy.proxy import *;  
 
 
-class Proxystam(): 
-    def __init__(self):
+Proxystam(); 
 
-        print("class proxy.."); 
 
-Proxystam()
+
+
+
 
 
 
