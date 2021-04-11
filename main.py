@@ -18,6 +18,8 @@ class Otherproxy():
 
 
 
+class Pychor(): 
+    pass 
 
 
 
