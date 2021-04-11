@@ -9,20 +9,6 @@ Proxystam()
 
 
 
-class Otherproxy():
-    pass 
-
-
-class Otherproxy():
-    pass 
-
-
-
-class Pychor(): 
-    pass 
-
-
-
 
 
 
