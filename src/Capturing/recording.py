@@ -3,12 +3,10 @@ import subprocess;
 
 
 class Capturing_audio():
-
-
+   
     def __init__(self):
         """Get information `pactl list short sources`"""
-
-
+           
     def getinput_devices(self): 
 
         try:
@@ -24,7 +22,7 @@ class Capturing_audio():
        string = str(bytess , encoding); 
        return string ; 
 
-DEVICEPULSARAUDIO = Capturing_audio().getinput_devices(); 
 
-  
+
+DEVICEPULSARAUDIO = Capturing_audio().getinput_devices();
 
