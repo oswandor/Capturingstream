@@ -5,25 +5,10 @@ import os ;
 from src.Proxy.proxy import *;  
 
 
-Proxystam(); 
+target = Capturing_audio() 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+target.getinput_devices()
 
 
 
