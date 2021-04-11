@@ -7,9 +7,6 @@ class Proxystam():
 
 Proxystam()
 
-
-
-
 class Otherproxy():
     pass 
 
