@@ -1,4 +1,4 @@
-# Flask Streaming Video 
+# Streaming Video 
 
 project in progress ...
 
