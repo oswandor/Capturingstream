@@ -15,6 +15,16 @@ class Capturing_audio():
 
         except: 
             pass 
+    def recoringaudio(self,timesecoss):
+
+        try:
+            p =  subprocess.run(['ffmpeg', '-f' ,'pulse', '-i' , DEVICEPULSARAUDIO , '-ac', '1','recording.m4a']);
+            return p ; 
+        except:
+            pass
+
+
+
 
     def encodeutf(self , bytess):
 
