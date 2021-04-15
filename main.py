@@ -9,6 +9,10 @@ from src.Capturing.recording import *;
 Capturing =  Capturing_audio(); 
 
 
-print(Capturing_audio().getinput_devices()) ; 
+
+
+
+
+
 
 
