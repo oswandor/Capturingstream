@@ -11,4 +11,5 @@ Capturing =  Capturing_audio();
 
 print(Capturing_audio().getinput_devices()) ; 
 
-print(DEVICEPULSARAUDIO); 
+
+Capturing.recoringaudio(); 
