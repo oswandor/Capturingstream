@@ -12,4 +12,3 @@ Capturing =  Capturing_audio();
 print(Capturing_audio().getinput_devices()) ; 
 
 
-Capturing.recoringaudio(); 
