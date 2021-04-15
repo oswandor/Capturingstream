@@ -1,5 +1,5 @@
-# Streaming Videoo
+# AudioRecorderpy
 
-Broser
+library to record audio with python using ffmpeg
 
 
