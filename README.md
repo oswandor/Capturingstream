@@ -8,3 +8,5 @@ library to record audio with python using ffmpeg
 - video recorder
 - video player
 - in smooth streaming system with rtp / rtsp
+- add new Issues 
+
